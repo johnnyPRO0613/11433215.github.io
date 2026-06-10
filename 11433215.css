@@ -11,6 +11,9 @@ a {
     width: 300px;
     margin: 50px auto;
 }
+html {
+    scroll-behavior: smooth;
+}
 .btc {
     width: 300px;
     height: auto;
