@@ -117,8 +117,16 @@ h2 {
     from { text-shadow: 0 0 5px #F7931A; }
     to   { text-shadow: 0 0 20px #F7931A, 0 0 40px #F7931A; }
 }
+.coin-card {
+    background-color: #2a2a2a;
+    border: 1px solid #F7931A;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
 .coin-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #F7931A;
-    transition: 0.3s;
 }
